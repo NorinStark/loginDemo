@@ -19,7 +19,7 @@ public class Second_Activity extends AppCompatActivity {
         final Button viewMap;
         final Button viewWeb;
 
-        viewCalendar = (Button)findViewById(R.id.btnCalendar);
+        viewCalendar = (Button)findViewById(R.id.btnMileKm);
         viewCalendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,7 +28,7 @@ public class Second_Activity extends AppCompatActivity {
             }
         });
 
-        viewMap = (Button)findViewById(R.id.btnMap);
+        viewMap = (Button)findViewById(R.id.btnCF);
         viewMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,7 +37,7 @@ public class Second_Activity extends AppCompatActivity {
             }
         });
 
-        viewWeb = (Button)findViewById(R.id.btnWebView);
+        viewWeb = (Button)findViewById(R.id.btnMFt);
         viewWeb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

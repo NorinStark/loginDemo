@@ -4,60 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context=".Second_Activity">
+    tools:context=".conversionActivity">
+
+    <Button
+        android:id="@+id/btnKgPound"
+        android:layout_width="254dp"
+        android:layout_height="62dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/kg_pound"
+        android:textColor="#fafafa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
 
     <Button
         android:id="@+id/btnMileKm"
         android:layout_width="254dp"
-        android:layout_height="66dp"
+        android:layout_height="61dp"
         android:background="@drawable/button_bg"
-        android:text="@string/view_calendar"
+        android:text="@string/mile_km"
         android:textColor="#fafafa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.296" />
 
     <Button
         android:id="@+id/btnCF"
-        android:layout_width="248dp"
-        android:layout_height="68dp"
-        android:text="@string/view_google_map"
+        android:layout_width="250dp"
+        android:layout_height="61dp"
         android:background="@drawable/button_bg"
+        android:text="@string/celcius_fahrenheit"
         android:textColor="#fafafa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.469" />
 
     <Button
         android:id="@+id/btnMFt"
-        android:layout_width="239dp"
-        android:layout_height="66dp"
+        android:layout_width="251dp"
+        android:layout_height="60dp"
         android:background="@drawable/button_bg"
-        android:text="@string/view_google_web"
+        android:text="@string/meter_feet"
         android:textColor="#fafafa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736" />
+        app:layout_constraintVertical_bias="0.638" />
 
     <TextView
-        android:id="@+id/tvImage"
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:background="@drawable/google_bg"
+        android:id="@+id/textView2"
+        android:layout_width="263dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="CONVERSION"
+        android:textSize="40dp"
+        app:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.068" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

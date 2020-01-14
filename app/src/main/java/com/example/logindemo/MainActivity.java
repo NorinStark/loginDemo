@@ -40,10 +40,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void validate(String userName, String userPassword){
-        if((userName.equals("NorinStark")) && (userPassword.equals("norin123"))){
+        if((userName.equals("hw1")) && (userPassword.equals("123"))){
             Intent intent = new Intent(MainActivity.this, Second_Activity.class);
             startActivity(intent);
-        }else{
+        }else if ((userName.equals("hw2")) && (userPassword.equals("123"))){
+            Intent intent = new Intent(MainActivity.this, conversionActivity.class);
+            startActivity(intent);
+        } else{
             counter--;
 
             Info.setText("Number of attempts remaining: " + String.valueOf(counter));

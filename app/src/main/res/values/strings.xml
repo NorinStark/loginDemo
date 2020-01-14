@@ -9,4 +9,11 @@
     <string name="title_activity_maps">Map</string>
     <string name="view_google_web">View Google Web</string>
     <string name="username">Username</string>
+    <string name="kg_pound"><![CDATA[Kg <=> Pound]]></string>
+    <string name="mile_km"><![CDATA[Mile <=> Km]]></string>
+    <string name="celcius_fahrenheit"><![CDATA[Celcius <=> Fahrenheit]]></string>
+    <string name="meter_feet"><![CDATA[Meter <=> Feet]]></string>
+    <string name="mile">Mile</string>
+    <string name="km">Km</string>
+    <string name="kilometer">kilometer</string>
 </resources>

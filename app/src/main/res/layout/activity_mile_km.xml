@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MileKmActivity">
+
+    <TextView
+        android:id="@+id/tvMile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="78dp"
+        android:text="@string/mile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etMile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/mile"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/tvMile"
+        app:layout_constraintTop_toBottomOf="@+id/tvMile"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tvKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/km"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMile" />
+
+    <EditText
+        android:id="@+id/etKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/kilometer"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/tvKm"
+        app:layout_constraintTop_toBottomOf="@+id/tvKm"
+        android:autofillHints="" />
+</androidx.constraintlayout.widget.ConstraintLayout>
