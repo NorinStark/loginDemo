@@ -4,41 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".SubConversionActivity">
 
     <TextView
         android:id="@+id/tvFrom"
-        android:layout_width="58dp"
-        android:layout_height="53dp"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
         android:gravity="center"
         android:text="@string/mile"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
 
     <TextView
         android:id="@+id/tvTo"
-        android:layout_width="58dp"
-        android:layout_height="53dp"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:text="@string/km"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
+        app:layout_constraintVertical_bias="0.223" />
 
     <Button
         android:id="@+id/btnMileToKm"
         android:layout_width="324dp"
         android:layout_height="59dp"
         android:text="@string/mile_to_km"
+        android:background="@drawable/button_bg"
+        android:textColor="#fafafa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -51,6 +54,8 @@
         android:layout_width="324dp"
         android:layout_height="59dp"
         android:text="@string/km_to_mile"
+        android:background="@drawable/button_bg"
+        android:textColor="#fafafa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -82,5 +87,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="74dp"
+        android:layout_marginHorizontal="100dp"
+        android:background="@drawable/footer_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvImage"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
