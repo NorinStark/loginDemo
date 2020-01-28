@@ -20,7 +20,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".KgPoundActivity"></activity>
+        <activity android:name=".SubConversionActivity"></activity>
+        <activity android:name=".MainboardActivity" />
+        <activity android:name=".KgPoundActivity" />
         <activity android:name=".MeterFeetActivity" />
         <activity android:name=".CelciusFahrenheitActivity" />
         <activity android:name=".MileKmActivity" />
