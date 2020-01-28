@@ -46,12 +46,15 @@ public class MainActivity extends AppCompatActivity {
         }else if ((userName.equals("hw2")) && (userPassword.equals("123"))){
             Intent intent = new Intent(MainActivity.this, conversionActivity.class);
             startActivity(intent);
-        } else{
+        } else if ((userName.equals("hw3")) && (userPassword.equals("123"))) {
+            Intent intent = new Intent(MainActivity.this, MainboardActivity.class);
+            startActivity(intent);
+        } else {
             counter--;
 
             Info.setText("Number of attempts remaining: " + String.valueOf(counter));
 
-            if(counter == 0){
+            if (counter == 0) {
                 Login.setEnabled(false);
             }
         }
